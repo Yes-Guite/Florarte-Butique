@@ -111,26 +111,4 @@ footer {
     font-size: 1.1em;
     margin-top: 40px;
 }
-  
-  /* Estilos para pantallas grandes (mayores a 1024px de ancho) */
-  @media (min-width: 1025px) {
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-    }
-  }
-  
-  /* Estilos para pantallas medianas (entre 768px y 1024px de ancho) */
-  @media (min-width: 768px) and (max-width: 1024px) {
-    .container {
-      max-width: 90%;
-    }
-  }
-  
-  /* Estilos para pantallas pequeñas (menos de 768px de ancho) */
-  @media (max-width: 767px) {
-    .container {
-      max-width: 100%;
-    }
-  }
-  
+ 
