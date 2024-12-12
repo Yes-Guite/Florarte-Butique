@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Florarte Boutique</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="icon" href="img/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Florarte Butique</h1>
+        <nav>
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">Inicio</a></li>
+                <li class="menu-item">
+                    <a href="catalogo.html" style="text-decoration: none; color: inherit;"> Catálogo </a></li>
+                <li class="menu-item">
+                    <a href="blog.html" style="text-decoration: none; color: inherit;">Blog</a></li>
+                <li class="menu-item">
+                    <a href="nosotros.html" style="text-decoration: none; color: inherit;">Nosotros</a></li>
+                <li class="menu-item">Formulario</li>
+                <li class="menu-item">
+                    <a href="contactanos.html" style="text-decoration: none; color: inherit;">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="img/tres.jpg" alt="Imagen decorativa para formulario" class="hero-image">
+    </section>
+
+    <section id="formulario" class="form-section">
+        <h2>Formulario</h2>
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre completo">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" placeholder="Ingrese su correo electrónico">
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" placeholder="Ingrese su número de teléfono">
+            </div>
+            <div class="form-group">
+                <label for="direccion">Dirección</label>
+                <input type="text" id="direccion" placeholder="Ingrese su dirección">
+            </div>
+            <div class="form-group">
+                <label for="pago">Pago</label>
+                <select id="pago">
+                    <option value="" disabled selected>Seleccione una opción</option>
+                    <option value="efectivo">Efectivo</option>
+                    <option value="tarjeta">Tarjeta de crédito/débito</option>
+                    <option value="transferencia">Transferencia bancaria</option>
+                </select>
+            </div>
+            <button type="submit" class="submit-button">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Florarte Boutique. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

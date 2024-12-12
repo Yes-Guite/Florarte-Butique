@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-family:'Great Vibes', serif;  
+    font-size: 2.5em;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.menu-item {
+    background-color: #b0d3b9;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.menu-item:hover {
+    background-color: #d1e8d1;
+    color: #8db596;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #8db596;
+    padding: 20px;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.menu-item {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #b0d3b9;
+    border-radius: 15px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: #d1e8d1;;
+    color: #8db596;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    margin: 0px 0;
+}
+
+.hero-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+.flower-section {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.flower-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.flower-card {
+    width: 200px;
+    text-align: center;
+}
+
+.flower-card img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cart-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #f7cce7;
+    border: none;
+    color: white;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.cart-button:hover {
+    background-color: #8db596;
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #8db596;
+    color: #f2f2f2; 
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1em;
+    margin-top: 40px;
+}
+
+  
+  /* Estilos para pantallas grandes (mayores a 1024px de ancho) */
+  @media (min-width: 1025px) {
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Estilos para pantallas medianas (entre 768px y 1024px de ancho) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+  
+  /* Estilos para pantallas pequeñas (menos de 768px de ancho) */
+  @media (max-width: 767px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+  
